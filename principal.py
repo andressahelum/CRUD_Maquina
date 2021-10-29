@@ -4,7 +4,7 @@ import QuerySQL as qSQL
 
 # É necessário criar o banco de dados sqlite com a tabela e colunas que quiser.
 
-st.markdown('# *Máquinas*')
+st.markdown('# Máquinas')
 
 opção = st.selectbox('Selecione uma das opções', ['Maquinas cadastradas', 'Inserir nova maquina', 'Atualizar registro'])
 

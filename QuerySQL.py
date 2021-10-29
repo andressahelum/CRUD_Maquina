@@ -7,9 +7,6 @@ import time
 def conectarSQLServer():
     try:
         # Estabelecendo a conexão com o banco de dados
-        # global conexao
-        # global cursor
-
         conexao = sqlite3.connect('Maquinas.db')
         cursor = conexao.cursor()
         return conexao, cursor
